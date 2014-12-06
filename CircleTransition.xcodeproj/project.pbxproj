@@ -13,6 +13,8 @@
 		85A16C0D1A326E9B008E6FCF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A16C0C1A326E9B008E6FCF /* Images.xcassets */; };
 		85A16C101A326E9B008E6FCF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85A16C0E1A326E9B008E6FCF /* LaunchScreen.xib */; };
 		85A16C1C1A326E9B008E6FCF /* CircleTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16C1B1A326E9B008E6FCF /* CircleTransitionTests.swift */; };
+		85A16C281A32783C008E6FCF /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16C271A32783C008E6FCF /* NavigationControllerDelegate.swift */; };
+		85A16C2A1A327956008E6FCF /* CircleTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A16C291A327955008E6FCF /* CircleTransitionAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		85A16C151A326E9B008E6FCF /* CircleTransitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleTransitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A16C1A1A326E9B008E6FCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85A16C1B1A326E9B008E6FCF /* CircleTransitionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTransitionTests.swift; sourceTree = "<group>"; };
+		85A16C271A32783C008E6FCF /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		85A16C291A327955008E6FCF /* CircleTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTransitionAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				85A16C0C1A326E9B008E6FCF /* Images.xcassets */,
 				85A16C0E1A326E9B008E6FCF /* LaunchScreen.xib */,
 				85A16C031A326E9B008E6FCF /* Supporting Files */,
+				85A16C271A32783C008E6FCF /* NavigationControllerDelegate.swift */,
+				85A16C291A327955008E6FCF /* CircleTransitionAnimator.swift */,
 			);
 			path = CircleTransition;
 			sourceTree = "<group>";
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85A16C081A326E9B008E6FCF /* ViewController.swift in Sources */,
+				85A16C2A1A327956008E6FCF /* CircleTransitionAnimator.swift in Sources */,
+				85A16C281A32783C008E6FCF /* NavigationControllerDelegate.swift in Sources */,
 				85A16C061A326E9B008E6FCF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
